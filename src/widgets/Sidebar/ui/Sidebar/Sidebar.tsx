@@ -43,7 +43,7 @@ export const Sidebar = ({ className }: SidebarProps) => {
                     to={RoutePath.main}
                     className={cls.item}
                 >
-                    <MainIcon className={cls.icon}/>
+                    <MainIcon className={cls.icon} />
                     <span className={cls.link}>
                         {t('Главная')}
                     </span>
